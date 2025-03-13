@@ -7,13 +7,20 @@ function calcularImc(altura,peso) {
 console.log(`IMC ${calcularImc(1.68,94)}`);
 
 // Tarefa 2
-/* function calcularFatorial(a) {
-    while (a > 0) {
-        b = a--;
-        return a * b;
+function calcularFatorial(numero) {
+    if (numero == 0 || numero == 1) {
+        return numero;
     }
+    fatorInicial = numero;
+    resultadoFinal = 1
+    while(fatorInicial > 0) {
+        resultadoFinal *= fatorInicial;
+        fatorInicial--;
+    }
+    console.log(`O Fatorial de ${numero} é igual a ${resultadoFinal}`);
 }
-console.log(calcularFatorial(5)); */
+
+calcularFatorial(5);
 
 // Tarefa 3
 function converterDolar (dolar) {
