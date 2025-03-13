@@ -42,3 +42,15 @@ function exibirAreaCirculo(raio) {
 }
 
 exibirAreaCirculo(20);
+
+// Tarefa 6
+function exibirTabuada(x) {
+    n = 1
+    while(n <= 10) {
+        valorTabuada = n * x;
+        console.log(`${x} x ${n} = ${valorTabuada}`);
+        n++;
+    }
+}
+
+exibirTabuada(2);
