@@ -33,3 +33,12 @@ function exibirAreaEPerimetro(altura,largura) {
 }
 
 exibirAreaEPerimetro(30,20);
+
+// Tarefa 5
+function exibirAreaCirculo(raio) {
+    pi = 3.14;
+    areaCirculo = raio * pi;
+    console.log(`A área da sala circular é de ${areaCirculo}`);
+}
+
+exibirAreaCirculo(20);
