@@ -18,15 +18,18 @@ console.log(calcularFatorial(5)); */
 // Tarefa 3
 function converterDolar (dolar) {
     let cotacaoDolar = 4.85;
-    return (dolar * cotacaoDolar).toFixed(2);
+    let conversao = (dolar * cotacaoDolar).toFixed(2);
+    console.log(`R$${conversao}`);
 }
 
-console.log(`R$${converterDolar(1)}`);
+converterDolar(30);
 
-// // Tarefa 4
-// function exibirAreaEPerimetro(altura,largura) {
-//     let area = altura * largura
-//     let valorPerimetro = Math.pow(altura,2) + Math.pow(largura,2);
-//     return area = altura * largura;
-    
-// }
+// Tarefa 4
+function exibirAreaEPerimetro(altura,largura) {
+    let area = altura * largura
+    let perimetro = Math.pow(altura,2) + Math.pow(largura,2);
+    console.log(`O perímetro da sala é de ${perimetro} metros`);
+    console.log(`A área da sala é de ${area} metros quadrados`);
+}
+
+exibirAreaEPerimetro(30,20);
